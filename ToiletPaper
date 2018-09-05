@@ -17,6 +17,6 @@ while i < sheetThickness:
     i+=1
     print(totalLegth)
 
-print(i)
+print("A roll of toilet paper is",totalLength ,"cm.")
 print("There are",totalLength//squareLength,"squares in one roll of toilet paper.")
     
