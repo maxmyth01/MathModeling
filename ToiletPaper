@@ -10,6 +10,8 @@ totalLength = 0
 squareLength = 10.4
 i=0
 while i < sheetThickness:
+    totalLegth = totalLength+(2*3.14*rInitial)
+    rInitial += rgrowth
     i+=1
 print(i)
 print("There are",totalLength//squareLength,"squares in one roll of toilet paper.")
