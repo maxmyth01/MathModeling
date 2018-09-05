@@ -13,10 +13,10 @@ i=0
 while i < sheetThickness:
     totalLegth = totalLength+(2*3.14*rInitial)
     rInitial += rgrowth
-    print(rInitial)
     i+=1
-    print(totalLegth)
 
 print("A roll of toilet paper is",totalLength ,"cm.")
 print("There are",totalLength/squareLength,"squares in one roll of toilet paper.")
+print("totalLength")
+print("squareLength")
     
