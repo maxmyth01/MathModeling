@@ -11,7 +11,7 @@ squareLength = 10.4
 
 i=0
 while i < sheetThickness:
-    totalLegth += (2*3.14*rInitial)
+    totalLength += (2*3.14*rInitial)
     print(totalLength)
     rInitial += rgrowth
     i+=1
