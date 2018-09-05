@@ -6,11 +6,11 @@ rInitial = 2.5
 rgrowth = 0.01875
 sheetThickness = 179
 circumference = 0
-totalLenght = 0 
+totalLength = 0 
 squareLength = 10.4
 i=0
 while i < sheetThickness:
     i+=1
 print(i)
-print("There are",totalLenght//squareLength,"squares in one roll of toilet paper.")
+print("There are",totalLength//squareLength,"squares in one roll of toilet paper.")
     
