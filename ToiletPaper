@@ -2,14 +2,15 @@
 #9/5/18
 #toilet paper loop code
 
-rInitial = 
+rInitial = 2.5
 rgrowth = 0.01875
 sheetThickness = 179
 circumference = 0
 TotalLenght = 0 
-
+squareLength = 10.4
 i=0
 while i < sheetThickness:
     i+=1
 print(i)
+print("There are",totalLength/squareLength "squares in one roll of toilet paper.")
     
