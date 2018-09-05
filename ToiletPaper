@@ -12,12 +12,10 @@ squareLength = 10.4
 i=0
 while i < sheetThickness:
     totalLength += (2*3.14*rInitial)
-    print(totalLength)
     rInitial += rgrowth
     i+=1
 
-print("A roll of toilet paper is",totalLength ,"cm.")
-print("There are",totalLength/squareLength,"squares in one roll of toilet paper.")
-print(totalLength)
-print(squareLength)
+print("A roll of toilet paper is",round(totalLength) ,"cm.")
+print("There are",round(totalLength/squareLength),"squares in one roll of toilet paper.")
+
     
