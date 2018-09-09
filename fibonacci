@@ -27,6 +27,7 @@ for a in range(10,25,1):
         fib1 = fib2
         fib2 = fib
         totalFib += fib
+        print(totalFib)
     
         #creates an exponecial sequence and sums them, need to change i to a verible and add another loop to optimise it
         exp = exp + (a/10)**2
@@ -39,6 +40,7 @@ for a in range(10,25,1):
         print(totalexp)
         print(a/10)
         print(" ")
+        
         
     
 print(totalFib)
