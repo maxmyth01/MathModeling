@@ -44,6 +44,3 @@ for a in range(10,25,1):
         print(" ")
         
         
-    
-print(totalFib)
-print(totalexp)
