@@ -11,6 +11,8 @@ exp = 0
 totalexp = 0
 comparisionAmt = 10
 
+
+"needed a work around since the range function only takes whole numbers"
 a =10
 for a in range(10,20,1):
     """accounts for 10 cycles"""
