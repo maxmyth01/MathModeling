@@ -1,1 +1,25 @@
+#Max Low
+#9-9-18
+#rabbit growth, comparing exponecial to fibonacci
 
+fib = 0
+fib1 = 1
+fib2 = 1 
+totalFib = 2 
+"""need to account for F1 =1 and F2 =1"""
+exp = 0 
+totalexp = 0
+comparisionAmt = 10
+
+i=1
+"""accounts for 10 cycles"""
+while i < 11:
+    fib = fib1 + fib2
+    fib1 = fib2
+    fib2 = fib
+    totalFib += fib
+    exp = exp + i**2
+    print(exp)
+    i+=1
+print(totalFib)
+print(totalexp)
