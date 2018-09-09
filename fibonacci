@@ -12,9 +12,10 @@ totalexp = 0
 comparisionAmt = 10
 
 
-"""accounts for 10 cycles"""
+
 a=0
 for a in range(1,2,0.1):
+    """accounts for 10 cycles"""
     i=1
     while i < 11:
         #creates the fibonacci sequence and keeps a running sum 
