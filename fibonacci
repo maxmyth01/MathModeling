@@ -9,7 +9,7 @@ totalFib = 2
 """need to account for F1 =1 and F2 =1"""
 exp = 0 
 totalexp = 0
-comparisionAmt = 10
+
 
 "needed a work around since the range function only takes whole numbers"
 a =10
@@ -19,6 +19,9 @@ for a in range(10,25,1):
     fib1 = 1
     fib2 = 1 
     totalFib = 2 
+    exp = 0 
+    totalexp = 0
+
     i=1
     
     while i < 11:
