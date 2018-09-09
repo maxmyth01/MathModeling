@@ -32,7 +32,7 @@ for a in range(10,25,1):
         totalFib += fib
     
         #creates an exponecial sequence and sums them, need to change i to a verible and add another loop to optimise it
-        exp = exp + (a/10)**2
+        exp = exp + (a/10)**i
         totalexp = exp
         print(totalexp)
         i+=1
