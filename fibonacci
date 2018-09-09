@@ -13,7 +13,7 @@ totalexp = 0
 
 "needed a work around since the range function only takes whole numbers"
 a =10
-for a in range(10,25,1):
+for a in range(10,20,1):
     """accounts for 10 cycles and resets"""
     fib = 0
     fib1 = 1
