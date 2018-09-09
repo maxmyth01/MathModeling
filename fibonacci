@@ -13,7 +13,7 @@ totalexp = 0
 
 "needed a work around since the range function only takes whole numbers"
 
-for a in range(160,170,1):
+for a in range(1600,1700,1):
     """accounts for 10 cycles and resets"""
     fib = 0
     fib1 = 1
@@ -32,15 +32,15 @@ for a in range(160,170,1):
         totalFib += fib
     
         #creates an exponecial sequence and sums them, need to change i to a verible and add another loop to optimise it
-        exp = exp + (a/100)**i
+        exp = exp + (a/1000)**i
         totalexp = exp
         i+=1
 
     
     if totalFib-totalexp >= 0:
-        """print(totalFib)
-        print(totalexp)"""
-        print(a/100)
+        print(totalFib)
+        print(totalexp)
+        print(a/1000)
         print(" ")
         
         
