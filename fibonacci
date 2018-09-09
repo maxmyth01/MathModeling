@@ -14,13 +14,16 @@ comparisionAmt = 10
 i=1
 """accounts for 10 cycles"""
 while i < 11:
+    #creates the fibonacci sequence and keeps a running sum 
     fib = fib1 + fib2
     fib1 = fib2
     fib2 = fib
     totalFib += fib
+    
+    #creates an exponecial sequence and sums them, need to change i to a verible and add another loop to optimise it
     exp = exp + i**2
-    print(exp)
-    i+=1
     totalexp = exp
+    i+=1
+    
 print(totalFib)
 print(totalexp)
