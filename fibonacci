@@ -21,5 +21,6 @@ while i < 11:
     exp = exp + i**2
     print(exp)
     i+=1
+    totalexp = exp
 print(totalFib)
 print(totalexp)
